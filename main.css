@@ -56,3 +56,9 @@ section h2 {
 
 .gallery img {
 	width: 100%;
+
+
+
+.fade-in {
+		opacity: 0;
+	  }
