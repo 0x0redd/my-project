@@ -19,17 +19,17 @@ img{
 	width: 33%;
   }
 
-.container{
+..container{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-self: center;
 	align-items: center;
 	text-align: center;
 }
 
-.container .box{
+.box{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -37,5 +37,11 @@ img{
 	display: flex;
 	flex-direction: column;
 	width: 32.5%;
-	
+
+}
+
+.container .box .column img{
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 5px;
 }
